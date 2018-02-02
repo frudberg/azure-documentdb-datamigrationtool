@@ -1,5 +1,6 @@
 ﻿using Microsoft.DataTransfer.JsonNet.Serialization;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Converters;
 
 namespace Microsoft.DataTransfer.JsonFile.Serialization
 {
