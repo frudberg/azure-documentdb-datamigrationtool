@@ -14,7 +14,7 @@ namespace Microsoft.DataTransfer.DocumentDb.Transformation.Dates
 
         public static string ToString(DateTime timeStamp)
         {
-            return timeStamp.ToString("O", CultureInfo.InvariantCulture);
+            return timeStamp.ToString("yyyy-MM-ddTHH\\:mm\\:ss.FFFFFFF", CultureInfo.InvariantCulture);
         }
     }
 }

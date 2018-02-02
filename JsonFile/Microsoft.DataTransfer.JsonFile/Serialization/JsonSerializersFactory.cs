@@ -12,6 +12,7 @@ namespace Microsoft.DataTransfer.JsonFile.Serialization
                 Converters =
                 {
                     DataItemJsonConverter.Instance,
+                    new IsoDateTimeConverter() { DateTimeFormat = "yyyy-MM-ddTHH\\:mm\\:ss.FFFFFFF" },
                     GeoJsonConverter.Instance
                 },
                 Formatting = prettify ? Formatting.Indented : Formatting.None
